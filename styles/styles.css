@@ -61,7 +61,7 @@ body {
   ul {
     list-style: none;
   }
-  /*container structure an dmax width on desktop*/
+  /*container structure and max width on desktop*/
   .container {
     max-width: 1400px;
     margin: 0 auto;
@@ -102,7 +102,7 @@ body {
     align-items: center;
     height: 100%;
   }
-  /*Footer stylings begin here*/
+/*Footer stylings begin here*/
 /*sets footer height*/
 .footer {
     height: 100px;
@@ -124,21 +124,21 @@ body {
   }
   
 /*Mobile first styles and universal styles*/
+/*universal styles for images*/
 img{
-  margin-bottom: 3%;
-  margin-left: 45%;
-  margin-right: 45%;
-  border: 4px solid #815D0A;
-  object-fit: cover;
-  max-width: 100% ;
+    margin-bottom: 3%;
+    margin-left: 45%;
+    margin-right: 45%;
+    border: 4px solid #815D0A;
+    object-fit: cover;
+    max-width: 100% ;
 }
-
+/*removes border on title image plus adds margins*/
 .title {
   margin: 30% 0% 30% 0%;
   border: none;
 }
-
-
+/*adding margin for mobile view to entend sections*/
 .motion p{
   margin-bottom: 100%;
   margin-left: 30%;
@@ -150,12 +150,11 @@ img{
   margin-left: 30%;
   margin-right: 30%;
 }
-
+/*flex positioning all images*/
 .hero {
   display:flex;
   justify-content: center;
   flex-wrap: wrap;
-
   }
 
 .motion {
@@ -171,6 +170,8 @@ img{
   justify-content: center;
   flex-wrap: wrap;
 }
+
+/*adding margin for centering*/
 .photography img{
   object-fit: cover;
   max-width: 100%;
@@ -180,12 +181,13 @@ img{
   border: 4px solid #815D0A;
 }
 
+/*heading styes mobile*/
 h3{
   font-size: small;
   margin-bottom: 100%;
   color: #815D0A;
 }
-
+/*heading styes mobile*/
 h2 {
   margin: 30% 15% 10% 15%;
   font-size: 5vw;
@@ -193,31 +195,31 @@ h2 {
   color: #815D0A;
   white-space: nowrap;
 }
-
+/*media styles for tablet*/
 @media only screen and (min-width: 600px) {
  
   .title {
     margin: 20% 0% 10% 0%;
-}
-h2 {
-  margin: 20% 20% 10% 20%;
+  }
+
+  h2 {
+    margin: 20% 20% 10% 20%;
+  }
+
+  .motion p{
+    margin-bottom: 35%;
+  }
+
+  .photography p{
+    margin-bottom: 10%;
+  }
+
+  h3 {
+    margin-bottom: 35%;
+  }
 
 }
-
-.motion p{
-  margin-bottom: 35%;
-}
-
-.photography p{
-  margin-bottom: 10%;
-}
-
-h3 {
-  margin-bottom: 35%;
-}
-
-}
-
+/*media styles for desktop*/
 @media only screen and (min-width: 1200px) {
 
   .photography img{
@@ -227,6 +229,7 @@ h3 {
     margin-left: 3%;
     margin-right: 3%;
   }
+
   h2 {
     margin: 20% 20% 10% 20%;
 
@@ -246,5 +249,5 @@ h3 {
 
   .title {
     margin: 10% 0% 10% 0%;
-}
+  }
 }
