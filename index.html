@@ -31,13 +31,21 @@
        <!-- section semantic tag -->
         <section class="hero" id="hero">
             <img class="title" src="images/sourceimages/DSBLOCK - Cropped .png" alt="title">
-            <img class="headshot" src="images/mobile/headshot-m.jpg" alt="ginger headshot">
+            <picture>
+              <source media="(min-width:600px)" srcset="images/tablet/headshot-t.jpg">
+              <source media="(min-width:1000px)" srcset="images/desktop/headshot-w.jpg">
+              <img class="headshot" src="images/mobile/headshot-m.jpg" alt="ginger headshot">
+            </picture>
             <h3>By Matthew Jerabek</h3>
         </section>
         <!-- section semantic tag -->
         <section class="motion" id="motion">
             <h2>MOTION DESIGN</h2>
-            <img class="portrait" src="images/mobile/motion-m.jpg" alt="polaroid camera rainbow">
+            <picture>
+              <source media="(min-width:600px)" srcset="images/tablet/motion-t.jpg">
+              <source media="(min-width:1000px)" srcset="images/desktop/motion-w.jpg">
+              <img class="portrait" src="images/mobile/motion-m.jpg" alt="polaroid camera rainbow">
+            </picture>
             <p>Motion design is a medium that I enjoy  as a way to create  dynamic visual animations. This Polaroid piece was a way to show off some of my portraits art in a fun and vivid way. 
             </p>
         </section>
