@@ -18,6 +18,6 @@ During the midterm I worked from the desktop layout back to the mobile layout (I
 
 ## Assets and Resources  
 
-All photography assets are my own. Previously written code was adapted to suit my needs for this assignment and improved upon. Font was used with permission from: https://www.dafontfree.net/embed/YWdlbmN5LWZiLXJlZ3VsYXImZGF0YS8xMy9hLzY0MzY5L0FHRU5DWVIuVFRG" with a free commercial license. 
+All photography assets are my own. Previously written code was adapted to suit my needs for this assignment and improved upon. Font was used with permission from: https://www.dafontfree.net/embed/YWdlbmN5LWZiLXJlZ3VsYXImZGF0YS8xMy9hLzY0MzY5L0FHRU5DWVIuVFRG" Agency FB is free for personal and commercial use.
 
  
